@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --Yellow: hsl(47, 88%, 63%);
+
+}
+
+body {
+    background-color: var(--Yellow);
+    font-family: Figtree, Arial, Helvetica, sans-serif;
+}
+
+p,
+h1,
+h5 {
+    margin: 0;
+}
+
+.card {
+    width: 80%;
+    max-width: 20rem;
+
+    background-color: var(--White);
+    border: 1px solid var(--Black);
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px var(--Black);
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.image {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0.75rem;
+}
+
+.chip {
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.25rem;
+    background-color: var(--Yellow);
+    border-radius: 2px;
+    max-width: min-content;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.publish-date {
+    font-size: 0.75rem;
+    font-weight: 600;
+
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: 800;
+
+    margin-bottom: 1rem;
+}
+
+.desc {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--Grey);
+    margin-bottom: 1.5rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.profile {
+    width: 2rem;
+}
